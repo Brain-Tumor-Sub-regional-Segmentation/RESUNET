@@ -24,7 +24,17 @@ Deep Residual Networks (ResNets) address the vanishing/exploding gradient proble
 
 4. **Output Layer**:
    - 🎯 A 1×1 convolutional layer with sigmoid activation produces the final segmentation mask.
+  
+5. **Training and Datasets**:
+
+   - 🏋️‍♂️ We run the model on BraTS-20 and BraTS-21 datasets using Kaggle's free GPU (GPU T4 x2).
+   - Learns to assign labels to pixels based on features extracted and localized through the contracting and expansive paths.
 
 ResUNets excel in medical imaging tasks such as organ and tumor segmentation.
 
+### Papers:
 📄 Read the Deep Residual U-Net paper [here](https://arxiv.org/pdf/1711.10684) on ArXiv for a formal introduction.
+
+#### ResUNet Arcitecture:
+![ResUNet Architecture](https://idiotdeveloper.com/wp-content/uploads/2021/02/arch.png)
+

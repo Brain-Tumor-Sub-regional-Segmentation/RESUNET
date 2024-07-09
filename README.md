@@ -4,7 +4,7 @@ ResUNet, a semantic segmentation model inspired by deep residual learning and U-
 
 #### ResNets
 
-Deep Residual Networks (ResNets) address the vanishing/exploding gradient problem by introducing residual blocks with skip connections. These connections enable the network to learn identity mappings, facilitating the training of very deep networks. For more on ResNets, refer to the [deep residual net paper](https://arxiv.org/pdf/1711.10684.pdf).
+Deep Residual Networks (ResNets) address the vanishing/exploding gradient problem by introducing residual blocks with skip connections. These connections enable the network to learn identity mappings, facilitating the training of very deep networks.
 
 #### Architecture Main Parts
 
